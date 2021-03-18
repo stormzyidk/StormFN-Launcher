@@ -183,7 +183,7 @@ namespace StormFN_Launcher
                             Config_file.Default.Path = FN_Path.Text;
                             Config_file.Default.Save();
                             exchange = Auth.GetExchange(token);
-                            string arguments = "-AUTH_LOGIN=unused -AUTH_PASSWORD=" + exchange + " -AUTH_TYPE=exchangecode -epicapp=Fortnite -epicenv=Prod -epiclocale=en-us -epicportal -noeac -fromfl=be -fltoken=8c4aa8a9b77acdcbd918874b -skippatchcheck";
+                            string arguments = "-AUTH_LOGIN=unused -AUTH_PASSWORD=" + exchange + " -AUTH_TYPE=exchangecode -epicapp=Fortnite -epicenv=Prod -epiclocale=en-us -epicportal -noeac -fromfl=be -fltoken=5dh74c635862g575778132fb -skippatchcheck";
                             //define fortnite
                             Process Fortnite = new Process
                             {
@@ -201,7 +201,7 @@ namespace StormFN_Launcher
                                 Win32.SuspendThread(Win32.OpenThread(2, false, thread.Id));
                             Process EACP = new Process();
                             EACP.StartInfo.FileName = EAC;
-                            EACP.StartInfo.Arguments = "-epicapp=Fortnite -epicenv=Prod -epiclocale=en-us -epicportal -noeac -fromfl=be -fltoken=8c4aa8a9b77acdcbd918874b -skippatchcheck";
+                            EACP.StartInfo.Arguments = "-epiclocale=en -noeac -fromfl=be -fltoken=5dh74c635862g575778132fb -frombe";
                             EACP.Start();
                             foreach (ProcessThread thread in (ReadOnlyCollectionBase)EACP.Threads)
                                 Win32.SuspendThread(Win32.OpenThread(2, false, thread.Id));

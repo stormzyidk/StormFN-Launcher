@@ -7685,20 +7685,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Toyou\\.nuget\\packages\\": {}
+    "C:\\Users\\moham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Toyou\\Desktop\\StormFN Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
+      "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Desktop\\StormFN-Launcher\\StormFN-Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
       "projectName": "StormFN Launcher",
-      "projectPath": "C:\\Users\\Toyou\\Desktop\\StormFN Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
-      "packagesPath": "C:\\Users\\Toyou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Toyou\\Desktop\\StormFN Launcher\\StormFN Launcher\\obj\\",
+      "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\StormFN-Launcher\\StormFN-Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
+      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moham\\OneDrive\\Desktop\\StormFN-Launcher\\StormFN-Launcher\\StormFN Launcher\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Toyou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
