@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StormFN Launcher", "StormFN Launcher\StormFN Launcher.csproj", "{A27C38B8-DB62-4887-B0CD-2119E592493B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glossy Launcher", "Glossy Launcher\Glossy Launcher.csproj", "{A27C38B8-DB62-4887-B0CD-2119E592493B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
