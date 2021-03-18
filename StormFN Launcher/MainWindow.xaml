@@ -24,7 +24,7 @@
             </Label.RenderTransform>
         </Label>
         <Label Visibility="Hidden" x:Name="Logged_in_as" Content="Logged In As:" HorizontalAlignment="Left" Margin="10,295,0,0" VerticalAlignment="Top"/>
-        <Label Visibility="Hidden" x:Name="DisplayName" Content="Invalid" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black"/>
+        <Label Visibility="Hidden" x:Name="DisplayName" Content="Invalid" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Purple"/>
         <TextBox x:Name="FN_Path" HorizontalAlignment="Left" Height="32" Margin="10,334,0,0" TextWrapping="Wrap" Text="Fortnite Path" VerticalAlignment="Top" Width="655"/>
         <Button x:Name="select_fn_path_button" Content="..." HorizontalAlignment="Left" Height="32" Margin="670,334,0,0" Click="Select_fn_path_button_Click" VerticalAlignment="Top" Width="37"/>
     </Grid>
