@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StormFN_Launcher {
+namespace GlossyFN_Launcher {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
