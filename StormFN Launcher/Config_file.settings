@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StormFN_Launcher" GeneratedClassName="Config_file">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GlossyFN_Launcher" GeneratedClassName="Config_file">
   <Profiles />
   <Settings>
     <Setting Name="Path" Type="System.String" Scope="User">
