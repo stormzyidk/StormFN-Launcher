@@ -10,3 +10,6 @@ https://discord.gg/stormfn
 # Creators
 
 Stormzy Glitches and NOTPIES
+#
+
+Guff Glitches was here
