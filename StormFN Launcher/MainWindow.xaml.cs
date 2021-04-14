@@ -38,7 +38,7 @@ namespace StormFN_Launcher
         private string username;
         public static string tempPath = Path.GetTempPath();
         private readonly WebClient webClient = new WebClient();
-        
+
 
         private void Give_AntiCheat_Love()
         {
@@ -62,9 +62,9 @@ namespace StormFN_Launcher
         }
 
 
-        public static string plataniumdllpath = foldername + "Platanium.dll";
+        public static string auroradllpath = foldername + "Aurora.Runtime.dll";
 
-        
+
         private void Save_settings(object sender, EventArgs e)
         {
             Config_file.Default.Path = FN_Path.Text;
@@ -121,7 +121,7 @@ namespace StormFN_Launcher
             {
                 Config_file.Default.Path = FN_Path.Text;
                 Config_file.Default.Save();
-                
+
 
                 //Get Token
                 string devicecode = Auth.GetDevicecode(Auth.GetDevicecodetoken());
@@ -155,25 +155,25 @@ namespace StormFN_Launcher
                 //Path check FN
                 if (!File.Exists(FN))
                 {
-                    msg("\"" + FN + "\" wasn't found, stop deleting game files!");
+                    msg("\"" + FN + "\" wasn't found, please verify your game!");
                     ShowLi(false);
                 }
                 else
                 {
                     //Path check Dll's
-                    
+
                     {
                         //Path check EAC
                         if (!File.Exists(EAC))
                         {
-                            msg("\"" + EAC + "\" wasn't found, stop deleting game files!");
+                            msg("\"" + EAC + "\" wasn't found, please verify your game!");
                             ShowLi(false);
                         }
 
                         //Path check FNLauncher
                         else if (!File.Exists(FNL))
                         {
-                            msg("\"" + FNL + "\" wasn't found, stop deleting game files!");
+                            msg("\"" + FNL + "\" wasn't found, please verify your game!");
                             ShowLi(false);
                         }
 
@@ -183,7 +183,7 @@ namespace StormFN_Launcher
                             Config_file.Default.Path = FN_Path.Text;
                             Config_file.Default.Save();
                             exchange = Auth.GetExchange(token);
-                            string arguments = "-AUTH_LOGIN=unused -AUTH_PASSWORD=" + exchange + " -AUTH_TYPE=exchangecode -epicapp=Fortnite -epicenv=Prod -epiclocale=en-us -epicportal -noeac -fromfl=be -fltoken=5dh74c635862g575778132fb -skippatchcheck";
+                            string arguments = "-AUTH_LOGIN=unused -AUTH_PASSWORD=" + exchange + " -AUTH_TYPE=exchangecode -epicapp=Fortnite -epicenv=Prod -epiclocale=en-us -epicportal -noeac -fromfl=be -fltoken=7d05d6869798a086b4bb6222 - skippatchcheck";
                             //define fortnite
                             Process Fortnite = new Process
                             {
@@ -201,17 +201,17 @@ namespace StormFN_Launcher
                                 Win32.SuspendThread(Win32.OpenThread(2, false, thread.Id));
                             Process EACP = new Process();
                             EACP.StartInfo.FileName = EAC;
-                            EACP.StartInfo.Arguments = "-epiclocale=en -noeac -fromfl=be -fltoken=5dh74c635862g575778132fb -frombe";
+                            EACP.StartInfo.Arguments = "-epiclocale=en -noeac -fromfl=be -fltoken=7d05d6869798a086b4bb6222 -frombe";
                             EACP.Start();
                             foreach (ProcessThread thread in (ReadOnlyCollectionBase)EACP.Threads)
                                 Win32.SuspendThread(Win32.OpenThread(2, false, thread.Id));
-                        Fortnite.Start();
+                            Fortnite.Start();
                             Thread.Sleep(2000);
 
                             //hide this window
                             Hide();
                             //Download Injector
-                            Thread.Sleep(6000);
+                            Thread.Sleep(8000);
                             try
                             {
                                 File.Delete(tempPath + "/Injector.exe");
@@ -221,11 +221,11 @@ namespace StormFN_Launcher
                             }
                             try
                             {
-                                webClient.DownloadFile("https://cdn.discordapp.com/attachments/698620628881899530/812703176381562880/Injector.exe", tempPath + "/Injector.exe");
+                                webClient.DownloadFile("https://cdn.discordapp.com/attachments/823233042788122685/828311722036690984/Injector.exe", tempPath + "/Injector.exe");
                             }
                             catch
                             {
-                                MessageBox.Show("Please make sure that you are connected to the internet.");
+                                MessageBox.Show("Please Run Launcher as Administrator and turn off Antivirus.");
                                 ShowLi(false);
                                 return;
                             }
@@ -233,16 +233,15 @@ namespace StormFN_Launcher
                             Fortnite.WaitForInputIdle();
 
                             new Process()
-                                    {
-                                        StartInfo = {
-                                Arguments = string.Format("\"{0}\" \"{1}\"", (object) Fortnite.Id, (object) plataniumdllpath),
+                            {
+                                StartInfo = {
+                                Arguments = string.Format("\"{0}\" \"{1}\"", (object) Fortnite.Id, (object) auroradllpath),
                                 CreateNoWindow = true,
                                 UseShellExecute = false,
                                 FileName = (tempPath + "/Injector.exe")
                                 }
-                                    }.Start();
 
-                           
+                            }.Start();
 
 
                             //Check if Fortnite is closed
@@ -311,6 +310,8 @@ namespace StormFN_Launcher
             }
         }
 
+
+
         //delete cms cached shit
         void DeleteCms()
         {
@@ -334,7 +335,23 @@ namespace StormFN_Launcher
             disableConsole = true;
         }
 
-       
+
+        private void Custom_Name_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            if (Custom_Name.Text == "")
+            {
+
+            }
+            else
+            {
+                msg("Sorry, but Storm will support Custom Names in there next update.");
+            }
+        }
+
+        private void Custom_Name_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
-//made by notpies and stormzy
+//open source so the neonite kids shut the fuck up

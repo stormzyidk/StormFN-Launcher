@@ -7690,11 +7690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Desktop\\StormFN-Launcher\\StormFN-Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
+      "projectUniqueName": "D:\\StormFN-Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
       "projectName": "StormFN Launcher",
-      "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\StormFN-Launcher\\StormFN-Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
+      "projectPath": "D:\\StormFN-Launcher\\StormFN Launcher\\StormFN Launcher.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moham\\OneDrive\\Desktop\\StormFN-Launcher\\StormFN-Launcher\\StormFN Launcher\\obj\\",
+      "outputPath": "D:\\StormFN-Launcher\\StormFN Launcher\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

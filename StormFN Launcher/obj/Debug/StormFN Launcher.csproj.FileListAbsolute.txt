@@ -168,3 +168,21 @@ C:\Users\moham\OneDrive\Desktop\StormFN-Launcher\StormFN-Launcher\StormFN Launch
 C:\Users\moham\OneDrive\Desktop\StormFN-Launcher\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.csproj.Fody.CopyLocal.cache
 C:\Users\moham\OneDrive\Desktop\StormFN-Launcher\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.exe
 C:\Users\moham\OneDrive\Desktop\StormFN-Launcher\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.pdb
+D:\StormFN-Launcher\StormFN Launcher\bin\Debug\StormFN Launcher.exe.config
+D:\StormFN-Launcher\StormFN Launcher\bin\Debug\StormFN Launcher.exe
+D:\StormFN-Launcher\StormFN Launcher\bin\Debug\StormFN Launcher.pdb
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.csprojAssemblyReference.cache
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.exe.config
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\MainWindow.g.cs
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\App.g.cs
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher_MarkupCompile.cache
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher_MarkupCompile.lref
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\App.baml
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\MainWindow.baml
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.g.resources
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN_Launcher.Properties.Resources.resources
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.csproj.GenerateResource.cache
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.csproj.CoreCompileInputs.cache
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.csproj.Fody.CopyLocal.cache
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.exe
+D:\StormFN-Launcher\StormFN Launcher\obj\Debug\StormFN Launcher.pdb
