@@ -1,12 +1,10 @@
-# StormFN-Launcher
-The Launcher used for StormFN. 
+# Storm Launcher
+The Launcher used for Storm Hybrid Server.
 
 Launcher Made in C# ModernWpf
 
-Make sure to give credit if you will use launcher or args
-
-https://discord.gg/stormfn
+discord.gg/stormfn
 
 # Creators
 <!-- SEX! -->
-Stormzy Glitches, NOTPIES, and Mostly Rythm
+Launcher Created by Rythm, Stormzy Glitches and NOTPIES.
