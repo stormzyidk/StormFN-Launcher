@@ -9,4 +9,4 @@ discord.gg/stormfn
 <!-- !Era#1337 is retarded -->
 Launcher Created by Rythm, Stormzy Glitches and NOTPIES.
 
-### !Era#1337 is retarded 
+##### !Era#1337 is retarded 
