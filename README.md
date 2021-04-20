@@ -6,5 +6,7 @@ Launcher Made in C# ModernWpf
 discord.gg/stormfn
 
 # Creators
-<!-- SEX! -->
+<!-- !Era#1337 is retarded -->
 Launcher Created by Rythm, Stormzy Glitches and NOTPIES.
+
+### !Era#1337 is retarded 
