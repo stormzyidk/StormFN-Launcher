@@ -112,7 +112,7 @@ namespace StormFN_Launcher
 
         public void msg(string text)
         {
-            MessageBox.Show(text.ToString(), "Storm Launcher");
+            MessageBox.Show(text, "Storm Launcher");
         }
 
         private void Login_click(object sender, RoutedEventArgs e)
