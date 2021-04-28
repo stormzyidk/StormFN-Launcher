@@ -1,4 +1,4 @@
-# meuh2k loves cocks
+# StormFN Launcher
 The Launcher used for Storm Hybrid Server.
 
 Launcher Made in C# ModernWpf
