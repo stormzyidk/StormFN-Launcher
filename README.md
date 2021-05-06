@@ -1,4 +1,4 @@
-# clapped_by_reakz#5794 is a fat fucking cunt
+# styx#0276 is a fat fucking cunt
 
 <!--# StormFN Launcher
 The Launcher used for Storm Hybrid Server.
