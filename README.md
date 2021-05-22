@@ -5,5 +5,5 @@ Launcher Made in C# ModernWpf
 
 discord.gg/stormfn
 
-# Creators
+# Credits
 Launcher Created by Rythm
