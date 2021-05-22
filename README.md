@@ -6,4 +6,4 @@ Launcher Made in C# ModernWpf
 discord.gg/stormfn
 
 # Creators
-Launcher Created by Rythm, Stormzy Glitches and NOTPIES.
+Launcher Created by Rythm
