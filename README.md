@@ -1,4 +1,4 @@
-# StormFN Launcher
+# StormFN Launcher / virus
 The Launcher used for Storm Hybrid Server.
 
 Launcher Made in C# ModernWpf
