@@ -218,6 +218,7 @@ namespace StormFN_Launcher
                             }
                             catch
                             {
+                              MessageBox.Show("Error");
                             }
                             try
                             {
